@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="24" fill="#1e1e1e"/>
+  <!-- Figma logo, centered -->
+  <!-- Red top-left -->
+  <path d="M32 32 C32 22.059 40.059 14 50 14 L68 14 L68 50 L50 50 C40.059 50 32 41.941 32 32 Z" fill="#F24E1E"/>
+  <!-- Orange top-right -->
+  <path d="M68 14 L86 14 C95.941 14 104 22.059 104 32 C104 41.941 95.941 50 86 50 L68 50 Z" fill="#FF7262"/>
+  <!-- Red middle-left -->
+  <path d="M32 64 C32 54.059 40.059 46 50 46 L68 46 L68 82 L50 82 C40.059 82 32 73.941 32 64 Z" fill="#FF7262"/>
+  <!-- Green bottom-left -->
+  <path d="M68 82 L50 82 C40.059 82 32 90.059 32 100 C32 109.941 40.059 118 50 118 C59.941 118 68 109.941 68 100 Z" fill="#0ACF83"/>
+  <!-- Blue circle -->
+  <circle cx="86" cy="64" r="18" fill="#1ABCFE"/>
+</svg>
