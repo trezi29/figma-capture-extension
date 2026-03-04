@@ -2,11 +2,11 @@
   "manifest_version": 3,
   "name": "Figma Capture",
   "version": "1.0.0",
-  "description": "Cattura qualsiasi pagina web in Figma con un click",
+  "description": "Capture any web page into Figma with one click",
   "permissions": ["activeTab", "scripting", "tabs"],
   "host_permissions": ["<all_urls>"],
   "action": {
-    "default_title": "Cattura su Figma",
+    "default_title": "Capture to Figma",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon16.png",

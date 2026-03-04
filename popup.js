@@ -18,7 +18,7 @@ captureBtn.addEventListener("click", async () => {
   if (!tab?.id) return
 
   if (!tab.url?.startsWith("http")) {
-    setStatus("✗ Impossibile catturare questa pagina", "error")
+    setStatus("✗ Cannot capture this page", "error")
     return
   }
 
@@ -48,13 +48,13 @@ captureBtn.addEventListener("click", async () => {
               resolve()
             } else if (attempts++ > 40) {
               clearInterval(check)
-              reject(new Error("Figma capture script non disponibile"))
+              reject(new Error("Figma capture script not available"))
             }
           }, 100)
         }),
     })
 
-    setStatus("✓ Cattura avviata — controlla Figma", "success")
+    setStatus("✓ Capture started — check Figma", "success")
   } catch (err) {
     const message = err instanceof Error ? err.message : String(err)
     setStatus("✗ " + message, "error")
@@ -66,11 +66,11 @@ captureBtn.addEventListener("click", async () => {
 function setLoading(loading) {
   captureBtn.disabled = loading
   captureBtn.innerHTML = loading
-    ? '<span class="spinner"></span> Cattura in corso...'
+    ? '<span class="spinner"></span> Capturing...'
     : `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
         <circle cx="12" cy="13" r="4"/>
-      </svg> Cattura su Figma`
+      </svg> Capture to Figma`
 }
 
 function setStatus(message, type) {

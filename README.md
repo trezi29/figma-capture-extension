@@ -5,7 +5,7 @@ A Chrome extension that lets you capture any web page and send it directly to Fi
 ## How it works
 
 1. Click the extension icon in Chrome's toolbar
-2. Click **"Cattura su Figma"** in the popup
+2. Click **"Capture to Figma"** in the popup
 3. The capture toolbar appears — select the destination Figma file
 4. Done ✓
 
