@@ -15,11 +15,11 @@ The extension injects the Figma capture script directly via Chrome's Scripting A
 
 Since this extension is not on the Chrome Web Store, install it in developer mode:
 
-1. Clone this repo
+1. Clone this repo, or download it as a ZIP file (Click the green "Code" button > "Download ZIP") and extract it
 2. Open `chrome://extensions` in Chrome
 3. Enable **Developer mode** (top-right toggle)
 4. Click **Load unpacked**
-5. Select the cloned folder
+5. Select the cloned (or extracted) folder
 
 ## Updating the capture script
 
